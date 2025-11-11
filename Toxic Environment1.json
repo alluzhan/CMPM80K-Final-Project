@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -96,6 +96,38 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fundo do mar back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundo do mar back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fundo do mar back2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundo do mar back2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fundo do mar back3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundo do mar back3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "orig.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "orig.png",
         "smoothed": true,
         "userAdded": false
       }
