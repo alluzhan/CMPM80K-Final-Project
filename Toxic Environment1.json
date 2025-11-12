@@ -186,6 +186,93 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/5f22381785b74cf9c2f6532a15026df7ddc8156c1dda68c44847d4ca7828c95b_cloud 5.png",
           "name": "cloud 5.png"
         }
+      },
+      {
+        "file": "JellyFish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "JellyFish.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JellyFish.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JellyFish",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JellyFish2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JellyFish2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JellyFish3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JellyFish3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JellyFish4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JellyFish4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jellyfish_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jellyfish_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/c65ec6b136452e505a928c1556943c93401296c380759ea26b7ff28c1d481950_Jellyfish_No Shadow.png",
+          "name": "Jellyfish_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Jellyfish_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jellyfish_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/44e787f8dd795fd7645817bc69db62882f3814cff2b9f1e076876094824ff670_Jellyfish_Shadow.png",
+          "name": "Jellyfish_Shadow.png"
+        }
+      },
+      {
+        "file": "assets/LightGlow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LightGlow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Particles/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
+          "name": "LightGlow.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -195,7 +282,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CoinsValue",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -211,6 +304,34 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/faceforward"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/particleemitter3d"
     }
   ],
   "externalLayouts": []
