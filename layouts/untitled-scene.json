@@ -1963,6 +1963,18 @@
                 "-",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BlueExplosion",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
             }
           ]
         },
