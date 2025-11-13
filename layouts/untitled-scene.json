@@ -1083,7 +1083,7 @@
           "parameters": [
             "HealthBar",
             "=",
-            "Player.Variable(MaxHealth)",
+            "Player.Health::MaxHealth()",
             ""
           ]
         },
@@ -1171,7 +1171,7 @@
           "parameters": [
             "HealthBar",
             "=",
-            "Player.Variable(Health)",
+            "Player.Health::Health()",
             ""
           ]
         },
@@ -1310,13 +1310,26 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberObjectVariable"
+            "value": "Health::Health::Hit"
           },
           "parameters": [
             "Player",
             "Health",
-            "-",
-            "1"
+            "1",
+            "no",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "HealthBar",
+            "=",
+            "Player.Health::Health()",
+            ""
           ]
         },
         {
@@ -1326,17 +1339,6 @@
           "parameters": [
             "Player",
             "\"HealthDrop\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "Health",
-            "=",
-            "clamp(Player.Variable(Health), 0, Player.Variable(MaxHealth))"
           ]
         }
       ]
@@ -1602,37 +1604,38 @@
         },
         {
           "type": {
-            "value": "NumberObjectVariable"
+            "value": "Health::Health::Health"
           },
           "parameters": [
             "Player",
             "Health",
             "<",
-            "Player.Variable(MaxHealth)"
+            "Player.Health::MaxHealth()",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SetNumberObjectVariable"
+            "value": "Health::Health::Heal"
           },
           "parameters": [
             "Player",
             "Health",
-            "+",
+            "+1",
             "1"
           ]
         },
         {
           "type": {
-            "value": "SetNumberObjectVariable"
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
           },
           "parameters": [
-            "Player",
-            "Health",
+            "HealthBar",
             "=",
-            "clamp(Player.Variable(Health), 0, Player.Variable(MaxHealth))"
+            "Player.Health::Health()",
+            ""
           ]
         },
         {
@@ -1877,23 +1880,12 @@
             },
             {
               "type": {
-                "value": "Health::Health::SetHealth"
-              },
-              "parameters": [
-                "Player",
-                "Health",
-                "Player.Variable(MaxHealth)",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
               },
               "parameters": [
                 "HealthBar",
                 "=",
-                "Player.Variable(MaxHealth)",
+                "Player.Health::MaxHealth()",
                 ""
               ]
             }
