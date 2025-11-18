@@ -1109,6 +1109,15 @@
         },
         {
           "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"Swimming\""
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -1156,6 +1165,18 @@
           },
           "parameters": [
             "Escape"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "c8b28bb6dfea7b3b2caf7e8cbd4a1db3496782811a11c3b09b480ea351060036_Sea Of Sound.ogg",
+            "yes",
+            "35",
+            ""
           ]
         }
       ]
@@ -1308,6 +1329,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "a01a5e673d5b3c7319b145c85379f1212b603002d6eb7754d37d53fd4b675613_Hit 4.aac",
+            "",
+            "50",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Health::Health::Hit"
@@ -1691,6 +1724,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "2c1c2f4554bf540ef9090c32701ca6fbcaa7dd883d646f0fa58a061eb791d470_Explosion 2.aac",
+                "1",
+                "no",
+                "67",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -1744,6 +1790,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
+                "",
+                "35",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1759,6 +1817,18 @@
                 "CoinsValue",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "25",
+                ""
               ]
             }
           ]
@@ -2175,6 +2245,111 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Player Sounds",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"Swimming\"",
+            ">",
+            "1.4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "3f4504710dd0582e467ba3d43b61b72dd8d71c0ba289b8f7679408eb2ecd07d0_Jump_Light_03.wav",
+            "",
+            "25",
+            ".40"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"Swimming\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::Health"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "=",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Player",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "8a0b08bb4919e9b426a37d02dfb6ddad03dd97d88fde77b13784851b8576aa71_Lose 4.aac",
+            "",
+            "100",
+            "0.5"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
