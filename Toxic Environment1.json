@@ -124,7 +124,7 @@
         "userAdded": false
       },
       {
-        "file": "orig.png",
+        "file": "assets/orig.png",
         "kind": "image",
         "metadata": "",
         "name": "orig.png",
@@ -188,7 +188,7 @@
         }
       },
       {
-        "file": "JellyFish.png",
+        "file": "assets/JellyFish.png",
         "kind": "image",
         "metadata": "",
         "name": "JellyFish.png",
@@ -629,7 +629,7 @@
         }
       },
       {
-        "file": "background_5a.png",
+        "file": "assets/background_5a.png",
         "kind": "image",
         "metadata": "",
         "name": "background_5a.png",
@@ -637,7 +637,7 @@
         "userAdded": false
       },
       {
-        "file": "background_5a2.png",
+        "file": "assets/background_5a2.png",
         "kind": "image",
         "metadata": "",
         "name": "background_5a2.png",
@@ -645,7 +645,7 @@
         "userAdded": false
       },
       {
-        "file": "tiles_14b.png",
+        "file": "assets/tiles_14b.png",
         "kind": "image",
         "metadata": "",
         "name": "tiles_14b.png",
@@ -653,7 +653,7 @@
         "userAdded": false
       },
       {
-        "file": "tiles_14.png",
+        "file": "assets/tiles_14.png",
         "kind": "image",
         "metadata": "",
         "name": "tiles_14.png",
@@ -661,7 +661,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_long_4o.png",
+        "file": "assets/plant_long_4o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_long_4o.png",
@@ -669,7 +669,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_long_1o.png",
+        "file": "assets/plant_long_1o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_long_1o.png",
@@ -677,7 +677,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_9o.png",
+        "file": "assets/plant_9o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_9o.png",
@@ -685,7 +685,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_12o.png",
+        "file": "assets/plant_12o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_12o.png",
@@ -693,7 +693,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_long_3o.png",
+        "file": "assets/plant_long_3o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_long_3o.png",
@@ -701,7 +701,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_3o.png",
+        "file": "assets/plant_3o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_3o.png",
@@ -709,7 +709,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_2.png",
+        "file": "assets/plant_2.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_2.png",
@@ -717,7 +717,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_2o.png",
+        "file": "assets/plant_2o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_2o.png",
@@ -725,7 +725,7 @@
         "userAdded": false
       },
       {
-        "file": "plant_6o.png",
+        "file": "assets/plant_6o.png",
         "kind": "image",
         "metadata": "",
         "name": "plant_6o.png",
@@ -733,7 +733,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3_base.png",
+        "file": "assets/fish_3_base.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3_base.png",
@@ -741,7 +741,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3_base2.png",
+        "file": "assets/fish_3_base2.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3_base2.png",
@@ -749,7 +749,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3.png",
+        "file": "assets/fish_3.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3.png",
@@ -757,7 +757,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3m1.png",
+        "file": "assets/fish_3m1.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3m1.png",
@@ -765,7 +765,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3MOVE1.png",
+        "file": "assets/fish_3MOVE1.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3MOVE1.png",
@@ -773,7 +773,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3_base3.png",
+        "file": "assets/fish_3_base3.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3_base3.png",
@@ -781,7 +781,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3-2 (dragged).png",
+        "file": "assets/fish_3-2 (dragged).png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3-2 (dragged).png",
@@ -789,7 +789,7 @@
         "userAdded": false
       },
       {
-        "file": "fish_3-2 (dragged)2.png",
+        "file": "assets/fish_3-2 (dragged)2.png",
         "kind": "image",
         "metadata": "",
         "name": "fish_3-2 (dragged)2.png",
@@ -797,7 +797,7 @@
         "userAdded": false
       },
       {
-        "file": "fish3facingleft.png",
+        "file": "assets/fish3facingleft.png",
         "kind": "image",
         "metadata": "",
         "name": "fish3facingleft.png",
@@ -805,7 +805,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s.png",
+        "file": "assets/frame_0_delay-0.08s.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_0_delay-0.08s.png",
@@ -813,7 +813,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_1_delay-0.08s.png",
+        "file": "assets/frame_1_delay-0.08s.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_1_delay-0.08s.png",
@@ -821,7 +821,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_2_delay-0.08s.png",
+        "file": "assets/frame_2_delay-0.08s.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_2_delay-0.08s.png",
@@ -829,7 +829,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_3_delay-0.08s.png",
+        "file": "assets/frame_3_delay-0.08s.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_3_delay-0.08s.png",
@@ -837,7 +837,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s2.png",
+        "file": "assets/frame_0_delay-0.08s2.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_0_delay-0.08s2.png",
@@ -857,7 +857,7 @@
         }
       },
       {
-        "file": "frame_0_delay-0.08s3.png",
+        "file": "assets/frame_0_delay-0.08s3.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_0_delay-0.08s3.png",
@@ -865,7 +865,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s4.png",
+        "file": "assets/frame_0_delay-0.08s4.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_0_delay-0.08s4.png\",\"extension\":\".png\"}",
         "name": "frame_0_delay-0.08s4.png",
@@ -873,7 +873,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_1_delay-0.08s2.png",
+        "file": "assets/frame_1_delay-0.08s2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_1_delay-0.08s2.png\",\"extension\":\".png\"}",
         "name": "frame_1_delay-0.08s2.png",
@@ -889,7 +889,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_3_delay-0.08s2.png",
+        "file": "assets/frame_3_delay-0.08s2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_3_delay-0.08s2.png\",\"extension\":\".png\"}",
         "name": "frame_3_delay-0.08s2.png",
@@ -897,7 +897,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s5.png",
+        "file": "assets/frame_0_delay-0.08s5.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_0_delay-0.08s5.png",
@@ -905,7 +905,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_1_delay-0.08s3.png",
+        "file": "assets/frame_1_delay-0.08s3.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_1_delay-0.08s3.png",
@@ -913,7 +913,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_2_delay-0.08s3.png",
+        "file": "assets/frame_2_delay-0.08s3.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_2_delay-0.08s3.png",
@@ -921,7 +921,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_3_delay-0.08s3.png",
+        "file": "assets/frame_3_delay-0.08s3.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_3_delay-0.08s3.png",
@@ -929,7 +929,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s6.png",
+        "file": "assets/frame_0_delay-0.08s6.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_0_delay-0.08s6.png\",\"extension\":\".png\"}",
         "name": "frame_0_delay-0.08s6.png",
@@ -937,7 +937,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_1_delay-0.08s4.png",
+        "file": "assets/frame_1_delay-0.08s4.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_1_delay-0.08s4.png\",\"extension\":\".png\"}",
         "name": "frame_1_delay-0.08s4.png",
@@ -945,7 +945,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_2_delay-0.08s4.png",
+        "file": "assets/frame_2_delay-0.08s4.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_2_delay-0.08s4.png\",\"extension\":\".png\"}",
         "name": "frame_2_delay-0.08s4.png",
@@ -953,7 +953,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_3_delay-0.08s4.png",
+        "file": "assets/frame_3_delay-0.08s4.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_3_delay-0.08s4.png\",\"extension\":\".png\"}",
         "name": "frame_3_delay-0.08s4.png",
@@ -961,7 +961,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s7.png",
+        "file": "assets/frame_0_delay-0.08s7.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_0_delay-0.08s7.png",
@@ -969,7 +969,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s8.png",
+        "file": "assets/frame_0_delay-0.08s8.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_0_delay-0.08s8.png",
@@ -977,7 +977,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_1_delay-0.08s5.png",
+        "file": "assets/frame_1_delay-0.08s5.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_1_delay-0.08s5.png",
@@ -985,7 +985,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_2_delay-0.08s5.png",
+        "file": "assets/frame_2_delay-0.08s5.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_2_delay-0.08s5.png",
@@ -993,7 +993,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_3_delay-0.08s5.png",
+        "file": "assets/frame_3_delay-0.08s5.png",
         "kind": "image",
         "metadata": "",
         "name": "frame_3_delay-0.08s5.png",
@@ -1001,7 +1001,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_0_delay-0.08s9.png",
+        "file": "assets/frame_0_delay-0.08s9.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_0_delay-0.08s9.png\",\"extension\":\".png\"}",
         "name": "frame_0_delay-0.08s9.png",
@@ -1009,7 +1009,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_3_delay-0.08s6.png",
+        "file": "assets/frame_3_delay-0.08s6.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_3_delay-0.08s6.png\",\"extension\":\".png\"}",
         "name": "frame_3_delay-0.08s6.png",
@@ -1017,7 +1017,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_2_delay-0.08s6.png",
+        "file": "assets/frame_2_delay-0.08s6.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_2_delay-0.08s6.png\",\"extension\":\".png\"}",
         "name": "frame_2_delay-0.08s6.png",
@@ -1025,7 +1025,7 @@
         "userAdded": false
       },
       {
-        "file": "frame_1_delay-0.08s6.png",
+        "file": "assets/frame_1_delay-0.08s6.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"frame_1_delay-0.08s6.png\",\"extension\":\".png\"}",
         "name": "frame_1_delay-0.08s6.png",
