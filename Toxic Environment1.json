@@ -15,7 +15,7 @@
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "bcb3c9c5-b772-4b67-8328-55a415b1ded6",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
@@ -124,7 +124,7 @@
         "userAdded": false
       },
       {
-        "file": "orig.png",
+        "file": "assets/orig.png",
         "kind": "image",
         "metadata": "",
         "name": "orig.png",
@@ -188,7 +188,7 @@
         }
       },
       {
-        "file": "JellyFish.png",
+        "file": "assets/JellyFish.png",
         "kind": "image",
         "metadata": "",
         "name": "JellyFish.png",
@@ -753,6 +753,418 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/a01a5e673d5b3c7319b145c85379f1212b603002d6eb7754d37d53fd4b675613_Hit 4.aac",
           "name": "gdevelop-asset-store"
         }
+	},
+	{
+        "file": "assets/background_5a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background_5a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background_5a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background_5a2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles_14b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles_14b.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles_14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_long_4o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_long_4o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_long_1o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_long_1o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_9o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_9o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_12o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_12o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_long_3o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_long_3o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_3o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_3o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_2o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_2o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plant_6o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_6o.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3_base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3_base.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3_base2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3_base2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3m1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3m1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3MOVE1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3MOVE1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3_base3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3_base3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3-2 (dragged).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3-2 (dragged).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish_3-2 (dragged)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish_3-2 (dragged)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fish3facingleft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fish3facingleft.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0_delay-0.08s.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_1_delay-0.08s.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_1_delay-0.08s.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_2_delay-0.08s.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_2_delay-0.08s.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_3_delay-0.08s.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_3_delay-0.08s.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0_delay-0.08s2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bubble.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubble.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Ball/34cc0007f3fcb69db052c5429e2f2f14847fbf4a6d3b446fca6f32364e8273d2_Bubble.png",
+          "name": "Bubble.png"
+        }
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0_delay-0.08s3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_0_delay-0.08s4.png\",\"extension\":\".png\"}",
+        "name": "frame_0_delay-0.08s4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_1_delay-0.08s2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_1_delay-0.08s2.png\",\"extension\":\".png\"}",
+        "name": "frame_1_delay-0.08s2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_2_delay-0.08s2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_2_delay-0.08s2.png\",\"extension\":\".png\"}",
+        "name": "frame_2_delay-0.08s2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_3_delay-0.08s2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_3_delay-0.08s2.png\",\"extension\":\".png\"}",
+        "name": "frame_3_delay-0.08s2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0_delay-0.08s5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_1_delay-0.08s3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_1_delay-0.08s3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_2_delay-0.08s3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_2_delay-0.08s3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_3_delay-0.08s3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_3_delay-0.08s3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_0_delay-0.08s6.png\",\"extension\":\".png\"}",
+        "name": "frame_0_delay-0.08s6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_1_delay-0.08s4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_1_delay-0.08s4.png\",\"extension\":\".png\"}",
+        "name": "frame_1_delay-0.08s4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_2_delay-0.08s4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_2_delay-0.08s4.png\",\"extension\":\".png\"}",
+        "name": "frame_2_delay-0.08s4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_3_delay-0.08s4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_3_delay-0.08s4.png\",\"extension\":\".png\"}",
+        "name": "frame_3_delay-0.08s4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0_delay-0.08s7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0_delay-0.08s8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_1_delay-0.08s5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_1_delay-0.08s5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_2_delay-0.08s5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_2_delay-0.08s5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_3_delay-0.08s5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_3_delay-0.08s5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_0_delay-0.08s9.png\",\"extension\":\".png\"}",
+        "name": "frame_0_delay-0.08s9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_3_delay-0.08s6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_3_delay-0.08s6.png\",\"extension\":\".png\"}",
+        "name": "frame_3_delay-0.08s6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_2_delay-0.08s6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_2_delay-0.08s6.png\",\"extension\":\".png\"}",
+        "name": "frame_2_delay-0.08s6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_1_delay-0.08s6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"frame_1_delay-0.08s6.png\",\"extension\":\".png\"}",
+        "name": "frame_1_delay-0.08s6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame_0_delay-0.08s9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "frame_0_delay-0.08s9",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -772,7 +1184,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/scene1"
     }
   ],
   "externalEvents": [],
@@ -824,6 +1236,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/topdownmovementanimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/speedrestrictions"
     }
   ],
   "externalLayouts": []
