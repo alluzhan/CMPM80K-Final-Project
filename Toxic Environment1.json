@@ -753,8 +753,8 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/a01a5e673d5b3c7319b145c85379f1212b603002d6eb7754d37d53fd4b675613_Hit 4.aac",
           "name": "gdevelop-asset-store"
         }
-	},
-	{
+      },
+      {
         "file": "assets/background_5a.png",
         "kind": "image",
         "metadata": "",
@@ -1165,6 +1165,34 @@
         "name": "frame_0_delay-0.08s9",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Death2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/95fe7f6a064b3e17dce2774ad92cee83f877d2d6dda1cd16d79b876ca572911c_Death.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Lose 8.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "04b4e7556eb9dd8d26e593fc4705dfc3ce9388537e5f7c9e249e37686aa649f1_Lose 8.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/04b4e7556eb9dd8d26e593fc4705dfc3ce9388537e5f7c9e249e37686aa649f1_Lose 8.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
