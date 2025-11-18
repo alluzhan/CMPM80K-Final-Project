@@ -1663,6 +1663,17 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "ToxicityLevel",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -1688,6 +1699,28 @@
                 "Player.X()",
                 "Player.Y()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "ToxicityLevel",
+                "-",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "ToxicityLevel",
+                "=",
+                "clamp(Player.Variable(ToxicityLevel), 0, Player.Variable(MaxToxicity))"
               ]
             }
           ]
@@ -1966,13 +1999,23 @@
             },
             {
               "type": {
-                "value": "Create"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "",
-                "BlueExplosion",
-                "Player.X()",
-                "Player.Y()",
+                "Player",
+                "MaxToxicity",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "ToxicityBar",
+                "=",
+                "Player.Variable(MaxToxicity)",
                 ""
               ]
             }
