@@ -1193,6 +1193,29 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/04b4e7556eb9dd8d26e593fc4705dfc3ce9388537e5f7c9e249e37686aa649f1_Lose 8.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/tiled_Purple background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Purple background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Backgrounds/889fdb43b0c63b52d18ae4618299bb2411f4f5cd3ea9890e7c68f4f4986896fd_tiled_Purple background.png",
+          "name": "tiled_Purple background.png"
+        }
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1207,6 +1230,16 @@
       "name": "CoinsValue",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "ToxinUse",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SpeedLevel",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [

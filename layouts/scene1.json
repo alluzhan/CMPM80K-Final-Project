@@ -18,14 +18,24 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8141881203709995,
+    "zoomFactor": 0.7130377630690479,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "UI Layer"
   },
   "objectsGroups": [],
   "variables": [
     {
       "name": "Variable",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Variable2",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ShopCoinsValue",
       "type": "number",
       "value": 0
     }
@@ -57,7 +67,7 @@
       "persistentUuid": "6759393a-337c-4213-b3a2-cfbc779b4795",
       "width": 0,
       "x": 32,
-      "y": 96,
+      "y": 80,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,14 +112,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "ShopCoins",
       "persistentUuid": "c4ba5d97-5650-45cb-9be7-363dd600d440",
-      "width": 128,
-      "x": 1056,
-      "y": 32,
+      "width": 192,
+      "x": 1008,
+      "y": 16,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,14 +129,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 32,
       "keepRatio": true,
       "layer": "",
       "name": "ShopCoinsValue",
       "persistentUuid": "481ed527-bf56-44ac-843d-ad2d56181f8c",
       "width": 64,
-      "x": 1184,
-      "y": 32,
+      "x": 1190,
+      "y": 40,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1527,6 +1537,55 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "Toxins",
+      "name": "ToxinTint",
+      "persistentUuid": "29d03145-1e92-4441-ab42-4201d682af52",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Speed",
+      "persistentUuid": "ee3ada23-fb25-450a-a37a-1bac30e3aeb1",
+      "width": 0,
+      "x": 20,
+      "y": 129,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "SpeedCount",
+      "persistentUuid": "89bd6e28-505e-47f4-83c0-37246d3e6af8",
+      "width": 0,
+      "x": 215,
+      "y": 129,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2298,7 +2357,7 @@
       "effects": [],
       "behaviors": [],
       "string": "   Coins: ",
-      "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 42,
       "color": {
@@ -2321,9 +2380,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "   Coins: ",
-        "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
+        "verticalTextAlignment": "center",
         "characterSize": 42,
         "lineHeight": 0,
         "color": "0;0;0"
@@ -2341,9 +2400,9 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 42,
+      "characterSize": 43,
       "color": {
         "b": 0,
         "g": 0,
@@ -2364,10 +2423,10 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 42,
+        "verticalTextAlignment": "center",
+        "characterSize": 43,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -3730,6 +3789,103 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "653519df871cb169057a6348a2ee25ced783ccbf0e9925de08cb28460c37d2b5",
+      "height": 480,
+      "name": "ToxinTint",
+      "texture": "tiled_Purple background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 640,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Speed",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "   Speed Level: ",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "   Speed Level: ",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "center",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SpeedCount",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "1",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "center",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3752,17 +3908,23 @@
           },
           {
             "objectName": "Escape"
+          },
+          {
+            "objectName": "ShopButton"
+          },
+          {
+            "objectName": "ShopCoins"
+          },
+          {
+            "objectName": "Speed"
+          },
+          {
+            "objectName": "SpeedCount"
+          },
+          {
+            "objectName": "ShopCoinsValue"
           }
         ]
-      },
-      {
-        "objectName": "ShopButton"
-      },
-      {
-        "objectName": "ShopCoins"
-      },
-      {
-        "objectName": "ShopCoinsValue"
       },
       {
         "folderName": "Background",
@@ -3833,6 +3995,9 @@
       },
       {
         "objectName": "BlueExplosion"
+      },
+      {
+        "objectName": "ToxinTint"
       }
     ]
   },
@@ -3902,6 +4067,17 @@
         },
         {
           "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "ToxinTint",
+            "Opacity",
+            "-",
+            "120"
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -3951,6 +4127,15 @@
           "parameters": [
             "Player",
             "\"Swimming\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Toxins\""
           ]
         }
       ]
@@ -4541,6 +4726,16 @@
                 "=",
                 "clamp(Player.Variable(ToxicityLevel), 0, Player.Variable(MaxToxicity))"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ToxinUse",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -5094,6 +5289,33 @@
                 "+",
                 "100"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SpeedLevel",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SpeedCount",
+                "Text",
+                "=",
+                "GlobalVariableString(SpeedLevel)"
+              ]
             }
           ]
         },
@@ -5324,102 +5546,309 @@
       "name": "Player Sounds",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Swimming\"",
+                ">",
+                "1.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "ed3cae567d66ddf923fdc0dadbc54b3241399ca2030ddb8f872ae2153e5b0d5b_Run_02.wav",
+                "",
+                "25",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Swimming\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "04b4e7556eb9dd8d26e593fc4705dfc3ce9388537e5f7c9e249e37686aa649f1_Lose 8.aac",
+                "",
+                "67",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Toxic Plants/Environment",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "TopDownMovementBehavior::IsMoving"
-          },
-          "parameters": [
-            "Player",
-            "TopDownMovement"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ToxinUse",
+                ">=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Toxins\""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "Player",
-            "\"Swimming\"",
-            ">",
-            "1.5"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Plant1",
+                "BlueExplosion",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Plant1",
+                "\"110;82;136\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Plant2",
+                "BlueExplosion",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Plant2",
+                "\"110;82;136\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Plant3",
+                "BlueExplosion",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Plant3",
+                "\"110;82;136\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Plant4",
+                "BlueExplosion",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Plant4",
+                "\"110;82;136\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Seaweed",
+                "BlueExplosion",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Seaweed",
+                "\"110;82;136\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Coral",
+                "BlueExplosion",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Coral",
+                "\"110;82;136\""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "ed3cae567d66ddf923fdc0dadbc54b3241399ca2030ddb8f872ae2153e5b0d5b_Run_02.wav",
-            "",
-            "25",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Player",
-            "\"Swimming\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Health::Health::Health"
-          },
-          "parameters": [
-            "Player",
-            "Health",
-            "=",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Player",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "04b4e7556eb9dd8d26e593fc4705dfc3ce9388537e5f7c9e249e37686aa649f1_Lose 8.aac",
-            "",
-            "67",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
@@ -5435,59 +5864,6 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Background",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "UI Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -5604,9 +5980,115 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Shop",
+      "name": "Toxins",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "150;150;150",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI Layer",
       "renderingType": "",
       "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Shop",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
