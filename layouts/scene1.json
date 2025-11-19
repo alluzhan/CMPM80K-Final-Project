@@ -4048,14 +4048,6 @@
         },
         {
           "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "black_space"
-          ]
-        },
-        {
-          "type": {
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
@@ -4074,38 +4066,6 @@
             "Opacity",
             "-",
             "120"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "AddHealth"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "AddSpeed"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "AddToxins"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Escape"
           ]
         },
         {
@@ -4135,7 +4095,61 @@
           },
           "parameters": [
             "",
+            "\"Shop\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
             "\"Toxins\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Fish1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Fish2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Fish3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "ShopCoins",
+            "\"UI Layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "ShopCoinsValue",
+            "\"UI Layer\""
           ]
         }
       ]
@@ -4993,6 +5007,230 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "ToxinTint",
+                "\"Toxins\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "Jellyfish",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Jellyfish",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CoinsValue",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "ToxinTint",
+                "\"Toxins\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "Fish1",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fish1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CoinsValue",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "ToxinTint",
+                "\"Toxins\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "Fish2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fish2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CoinsValue",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "ToxinTint",
+                "\"Toxins\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "Fish3",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fish3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CoinsValue",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -5052,47 +5290,11 @@
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "ShowLayer"
               },
               "parameters": [
-                "black_space",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "AddHealth",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "AddSpeed",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "AddToxins",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Escape",
-                ""
+                "",
+                "\"Shop\""
               ]
             }
           ]
@@ -5129,47 +5331,11 @@
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "ShowLayer"
               },
               "parameters": [
-                "black_space",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "AddHealth",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "AddSpeed",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "AddToxins",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Escape",
-                ""
+                "",
+                "\"Shop\""
               ]
             }
           ]
@@ -5413,42 +5579,11 @@
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "HideLayer"
               },
               "parameters": [
-                "black_space"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "AddHealth"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "AddSpeed"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "AddToxins"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Escape"
+                "",
+                "\"Shop\""
               ]
             },
             {
@@ -5485,42 +5620,11 @@
           "actions": [
             {
               "type": {
-                "value": "Cache"
+                "value": "HideLayer"
               },
               "parameters": [
-                "black_space"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "AddHealth"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "AddSpeed"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "AddToxins"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Escape"
+                "",
+                "\"Shop\""
               ]
             },
             {
@@ -5982,7 +6086,7 @@
       "isLocked": false,
       "name": "Toxins",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -6088,7 +6192,7 @@
       "isLocked": false,
       "name": "Shop",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
