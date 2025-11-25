@@ -1576,6 +1576,20 @@
         "name": "sprite-10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/door.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a0504f03501150f453bf2d3b3877abbcb96efd6296e366cc1cbf00c75220eb3b_door.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/a0504f03501150f453bf2d3b3877abbcb96efd6296e366cc1cbf00c75220eb3b_door.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2522,7 +2536,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2538,7 +2558,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2554,7 +2580,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2570,7 +2602,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2586,7 +2624,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2602,7 +2646,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -4231,6 +4281,11 @@
       "name": "GlobalMaxToxicity",
       "type": "number",
       "value": 10
+    },
+    {
+      "name": "GlobalInfectedCount",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
