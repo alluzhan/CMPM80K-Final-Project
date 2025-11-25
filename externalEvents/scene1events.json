@@ -17,12 +17,35 @@
       "actions": [
         {
           "type": {
+            "value": "Health::Health::SetMaxHealthOp"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "=",
+            "GlobalMaxHealth",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "MaxToxicity",
+            "=",
+            "GlobalMaxToxicity"
+          ]
+        },
+        {
+          "type": {
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
           },
           "parameters": [
             "HealthBar",
             "=",
-            "Player.Health::MaxHealth()",
+            "GlobalMaxHealth",
             ""
           ]
         },
@@ -33,7 +56,7 @@
           "parameters": [
             "ToxicityBar",
             "=",
-            "Player.Variable(MaxToxicity)",
+            "GlobalMaxToxicity",
             ""
           ]
         },
@@ -1390,13 +1413,23 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalMaxHealth",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "Health::Health::SetMaxHealthOp"
               },
               "parameters": [
                 "Player",
                 "Health",
-                "+",
-                "2",
+                "=",
+                "GlobalMaxHealth",
                 ""
               ]
             },
@@ -1407,7 +1440,7 @@
               "parameters": [
                 "HealthBar",
                 "=",
-                "Player.Health::MaxHealth()",
+                "GlobalMaxHealth",
                 ""
               ]
             }
@@ -1535,13 +1568,23 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalMaxToxicity",
+                "+",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Player",
                 "MaxToxicity",
-                "+",
-                "2"
+                "=",
+                "GlobalMaxToxicity"
               ]
             },
             {
@@ -1551,7 +1594,7 @@
               "parameters": [
                 "ToxicityBar",
                 "=",
-                "Player.Variable(MaxToxicity)",
+                "GlobalMaxToxicity",
                 ""
               ]
             }
