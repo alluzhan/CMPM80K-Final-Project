@@ -844,6 +844,16 @@
                 "45",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -906,6 +916,16 @@
                 "",
                 "45",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
               ]
             }
           ]
@@ -970,6 +990,16 @@
                 "45",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -1032,6 +1062,16 @@
                 "",
                 "45",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
               ]
             }
           ]
@@ -1822,9 +1862,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Plant1",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Plant1",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -1833,6 +1895,16 @@
                 "Plant1",
                 "\"110;82;136\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -1850,9 +1922,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Plant2",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Plant2",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -1860,6 +1954,16 @@
               "parameters": [
                 "Plant2",
                 "\"110;82;136\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
               ]
             }
           ]
@@ -1878,9 +1982,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Plant3",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Plant3",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -1889,6 +2015,16 @@
                 "Plant3",
                 "\"110;82;136\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -1906,9 +2042,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Plant4",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Plant4",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -1916,6 +2074,16 @@
               "parameters": [
                 "Plant4",
                 "\"110;82;136\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
               ]
             }
           ]
@@ -1934,9 +2102,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Seaweed1",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Seaweed1",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -1944,6 +2134,16 @@
               "parameters": [
                 "Seaweed1",
                 "\"110;82;136\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
               ]
             }
           ]
@@ -1962,9 +2162,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Coral",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Coral",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -1972,6 +2194,16 @@
               "parameters": [
                 "Coral",
                 "\"110;82;136\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "+",
+                "1"
               ]
             }
           ]

@@ -18,12 +18,18 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6897782140104504,
+    "zoomFactor": 0.1770859527754392,
     "windowMask": false,
     "selectedLayer": "Background"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "TotalInfectneeded",
+      "type": "number",
+      "value": 6
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -1973,7 +1979,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -1989,7 +2001,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2005,7 +2023,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2021,7 +2045,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2037,7 +2067,13 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "infected",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -2659,6 +2695,26 @@
             "=",
             "\"swimming\""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalInfectedCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TotalInfectneeded",
+            "=",
+            "6"
+          ]
         }
       ]
     },
@@ -2741,9 +2797,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Shell",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Shell",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -2769,9 +2847,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "GreenCoral",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "GreenCoral",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -2797,9 +2897,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Seaweed2",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Seaweed2",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -2825,9 +2947,31 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Seaweed3",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Seaweed3",
+                "infected",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "PanelSpriteObject::SetColor"
@@ -2853,6 +2997,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Plant5",
+                "infected",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -2863,6 +3018,17 @@
               "parameters": [
                 "Plant5",
                 "\"110;82;136\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Plant5",
+                "infected",
+                "=",
+                "1"
               ]
             }
           ]
@@ -2942,6 +3108,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

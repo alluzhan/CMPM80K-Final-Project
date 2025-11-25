@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7130377630690479,
+    "zoomFactor": 0.20902556228335517,
     "windowMask": false,
     "selectedLayer": "Background"
   },
@@ -38,6 +38,11 @@
       "name": "ShopCoinsValue",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "TotalInfectedNeeded",
+      "type": "number",
+      "value": 10
     }
   ],
   "instances": [
@@ -1622,12 +1627,47 @@
       "conditions": [
         {
           "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalInfectedCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TotalInfectedNeeded",
+            "=",
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
-            "ToxinUse",
+            "GlobalInfectedCount",
             ">=",
-            "1"
+            "TotalInfectedNeeded"
           ]
         }
       ],
@@ -1653,63 +1693,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Layer"
-              },
-              "parameters": [
-                "Jellyfish",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Layer"
-              },
-              "parameters": [
-                "Fish1",
-                "\"Background\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Layer"
-              },
-              "parameters": [
-                "Fish2",
-                "\"Background\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Layer"
-              },
-              "parameters": [
-                "Fish3",
-                "\"Background\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Portal",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1729,6 +1712,18 @@
               },
               "parameters": [
                 "Portal",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "a0504f03501150f453bf2d3b3877abbcb96efd6296e366cc1cbf00c75220eb3b_door.aac",
+                "",
+                "15",
                 ""
               ]
             }
@@ -1779,11 +1774,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
