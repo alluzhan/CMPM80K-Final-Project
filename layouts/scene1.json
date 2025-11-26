@@ -1743,6 +1743,17 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "InSafe",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
