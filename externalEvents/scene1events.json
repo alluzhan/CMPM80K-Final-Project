@@ -1901,7 +1901,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "GlobalInfectedCount",
+                "GlobalInfectedPlants",
                 "+",
                 "1"
               ]
@@ -1961,7 +1961,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "GlobalInfectedCount",
+                "GlobalInfectedPlants",
                 "+",
                 "1"
               ]
@@ -2021,7 +2021,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "GlobalInfectedCount",
+                "GlobalInfectedPlants",
                 "+",
                 "1"
               ]
@@ -2081,7 +2081,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "GlobalInfectedCount",
+                "GlobalInfectedPlants",
                 "+",
                 "1"
               ]
@@ -2141,7 +2141,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "GlobalInfectedCount",
+                "GlobalInfectedPlants",
                 "+",
                 "1"
               ]
@@ -2201,7 +2201,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "GlobalInfectedCount",
+                "GlobalInfectedPlants",
                 "+",
                 "1"
               ]
