@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.20902556228335517,
+    "zoomFactor": 0.37971210019479856,
     "windowMask": false,
     "selectedLayer": "Background"
   },
@@ -43,6 +43,11 @@
       "name": "TotalInfectedNeeded",
       "type": "number",
       "value": 10
+    },
+    {
+      "name": "TotalInfectedPlantsNeeded",
+      "type": "number",
+      "value": 3
     }
   ],
   "instances": [
@@ -938,8 +943,8 @@
       "name": "Plant2",
       "persistentUuid": "85506701-dada-4fe9-860b-d8f94a1368cb",
       "width": 96,
-      "x": 64,
-      "y": 448,
+      "x": 32,
+      "y": 480,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -1074,8 +1079,8 @@
       "name": "Plant1",
       "persistentUuid": "e6d6002e-049f-4919-adff-35794094d1d6",
       "width": 64,
-      "x": 160,
-      "y": 352,
+      "x": 128,
+      "y": 320,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -1640,6 +1645,16 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
+            "GlobalInfectedPlants",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
             "GlobalInfectedCount",
             "=",
             "0"
@@ -1652,7 +1667,17 @@
           "parameters": [
             "TotalInfectedNeeded",
             "=",
-            "10"
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TotalInfectedPlantsNeeded",
+            "=",
+            "3"
           ]
         }
       ]
@@ -1666,8 +1691,18 @@
           },
           "parameters": [
             "GlobalInfectedCount",
-            ">=",
+            "=",
             "TotalInfectedNeeded"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "GlobalInfectedPlants",
+            "=",
+            "TotalInfectedPlantsNeeded"
           ]
         }
       ],

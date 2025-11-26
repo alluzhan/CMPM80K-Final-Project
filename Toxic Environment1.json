@@ -4286,6 +4286,11 @@
       "name": "GlobalInfectedCount",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "GlobalInfectedPlants",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
