@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 246,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -80,7 +80,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -1590,9 +1592,201 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/a0504f03501150f453bf2d3b3877abbcb96efd6296e366cc1cbf00c75220eb3b_door.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/tiled_Blue background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Blue background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
+          "name": "tiled_Blue background.png"
+        }
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/sprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprite-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprite-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprite-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "squid-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "squid-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "squid-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "squid-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid-1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid-1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid0",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "squid0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "squid1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_background solid grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_background solid grass.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Backgrounds/2df2d986fe71a195779d92f9df8ff79d5186b6db75d2160f2680e12a527261cf_tiled_background solid grass.png",
+          "name": "tiled_background solid grass.png"
+        }
+      },
+      {
+        "file": "assets/Teleport 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2e004a9391c46f0de998f83d9e1da1cd4277899ee97e36886cc38b3f8a232cc9_Teleport 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Teleport/2e004a9391c46f0de998f83d9e1da1cd4277899ee97e36886cc38b3f8a232cc9_Teleport 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/squid3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/squid6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "squid6",
+        "smoothed": false,
+        "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
@@ -4140,6 +4334,17 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 256,
+      "name": "StartScreen",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -4252,6 +4457,9 @@
       },
       {
         "objectName": "Portal"
+      },
+      {
+        "objectName": "StartScreen"
       }
     ]
   },
@@ -4291,6 +4499,36 @@
       "name": "GlobalInfectedPlants",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "GameStarted",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GamePaused",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GlobalPlayerSpeed",
+      "type": "number",
+      "value": 180
+    },
+    {
+      "name": "EnemyDamage",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GameEnd",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SharksRemaining",
+      "type": "number",
+      "value": 2
     }
   ],
   "layouts": [
