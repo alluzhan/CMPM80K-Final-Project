@@ -182,6 +182,16 @@
           "parameters": [
             "Portal"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GamePaused",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -717,6 +727,36 @@
                 "ToxicityLevel",
                 ">=",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GamePaused",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameStarted",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameEnd",
+                "=",
+                "0"
               ]
             },
             {
@@ -1361,21 +1401,21 @@
           "actions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
-              },
-              "parameters": [
-                "Player",
-                "TopDownMovement",
-                "yes"
-              ]
-            },
-            {
-              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"Shop\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GamePaused",
+                "=",
+                "1"
               ]
             }
           ]
@@ -1383,6 +1423,26 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameStarted",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameEnd",
+                "=",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "KeyFromTextPressed"
@@ -1402,21 +1462,58 @@
           "actions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
-              },
-              "parameters": [
-                "Player",
-                "TopDownMovement",
-                "yes"
-              ]
-            },
-            {
-              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"Shop\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GamePaused",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GamePaused",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "RemapForTopdown",
+                ""
               ]
             }
           ]
@@ -1544,7 +1641,17 @@
                 "Player",
                 "TopDownMovement",
                 "+",
-                "100"
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GlobalPlayerSpeed",
+                "+",
+                "50"
               ]
             },
             {
@@ -1655,14 +1762,6 @@
           "conditions": [
             {
               "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "black_space"
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -1689,12 +1788,12 @@
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Player",
-                "TopDownMovement",
-                "no"
+                "GamePaused",
+                "=",
+                "0"
               ]
             }
           ]
@@ -1730,12 +1829,49 @@
             },
             {
               "type": {
-                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GamePaused",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GamePaused",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "RemapForTopdown",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "Player",
                 "TopDownMovement",
-                "no"
+                "yes"
               ]
             }
           ]
@@ -2220,11 +2356,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ]
 }
