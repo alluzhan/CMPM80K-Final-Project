@@ -20,9 +20,9 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5653158055126322,
+    "zoomFactor": 0.7130377630690412,
     "windowMask": false,
-    "selectedLayer": "Layer"
+    "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [
@@ -63,6 +63,11 @@
     },
     {
       "name": "Variable6",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Variable7",
       "type": "number",
       "value": 0
     }
@@ -1996,7 +2001,7 @@
       "width": 234,
       "x": 406,
       "y": 141,
-      "zOrder": 63,
+      "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2200,6 +2205,90 @@
       "x": 288,
       "y": 430,
       "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "Losing Screen",
+      "name": "LoseScreen",
+      "persistentUuid": "447fde90-1928-42bb-82a2-f093f6d1daef",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Losing Screen",
+      "name": "LosingMessage",
+      "persistentUuid": "4e853584-c5d5-48ab-82a6-bfa157f7363d",
+      "width": 0,
+      "x": 183,
+      "y": 280,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Losing Screen",
+      "name": "Quitgame",
+      "persistentUuid": "bd498834-ff05-4820-9d41-16992cf88267",
+      "width": 256,
+      "x": 320,
+      "y": 384,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Losing Screen",
+      "name": "Retry",
+      "persistentUuid": "60682ff5-04f4-4681-914d-f96be4fd16b4",
+      "width": 256,
+      "x": 672,
+      "y": 384,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "Losing Screen",
+      "name": "CreditButton",
+      "persistentUuid": "209dda26-4237-4ec1-b5c2-661476a8214a",
+      "width": 160,
+      "x": 544,
+      "y": 496,
+      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4942,6 +5031,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Shop",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Losing Screen",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
