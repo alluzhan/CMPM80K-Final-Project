@@ -3577,7 +3577,7 @@
           "parameters": [
             "TotalInfectneeded",
             "=",
-            "1"
+            "4"
           ]
         },
         {
@@ -3587,7 +3587,7 @@
           "parameters": [
             "TotalInfectedPlantsNeeded",
             "=",
-            "3"
+            "4"
           ]
         },
         {
@@ -4613,12 +4613,50 @@
             },
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedCount",
+                "=",
+                "TotalInfectneeded"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GlobalInfectedPlants",
+                ">=",
+                "TotalInfectedPlantsNeeded"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Toxins\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "ToxinTint",
+                "\"ToxicLayerDelay\""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -4628,12 +4666,71 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Toxins\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "InSafe",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "a0504f03501150f453bf2d3b3877abbcb96efd6296e366cc1cbf00c75220eb3b_door.aac",
+                "",
+                "35",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "ToxinTint",
+                "\"ToxicLayerDelay\"",
+                ">=",
+                "4"
+              ]
+            },
             {
               "type": {
                 "value": "NumberVariable"

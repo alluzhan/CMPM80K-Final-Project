@@ -93,11 +93,12 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "c8b28bb6dfea7b3b2caf7e8cbd4a1db3496782811a11c3b09b480ea351060036_Sea Of Sound.ogg",
+            "0",
             "",
             "35",
             ""
