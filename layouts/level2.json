@@ -22,7 +22,7 @@
     "snap": true,
     "zoomFactor": 0.7130377630690412,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "End Scene"
   },
   "objectsGroups": [],
   "variables": [
@@ -2289,6 +2289,22 @@
       "x": 544,
       "y": 496,
       "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "End Scene",
+      "name": "CreditButton",
+      "persistentUuid": "75c2bb9a-4ad7-4849-bd98-34164aaf407d",
+      "width": 0,
+      "x": 544,
+      "y": 496,
+      "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4879,6 +4895,16 @@
               "parameters": [
                 "Player",
                 "\"ToxicityDrop\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "CreditButton",
+                "yes",
+                ""
               ]
             }
           ]
