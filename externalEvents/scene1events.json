@@ -99,7 +99,7 @@
             "",
             "c8b28bb6dfea7b3b2caf7e8cbd4a1db3496782811a11c3b09b480ea351060036_Sea Of Sound.ogg",
             "0",
-            "",
+            "yes",
             "35",
             ""
           ]
@@ -2455,7 +2455,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Losing Screen",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
