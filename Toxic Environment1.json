@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "bcb3c9c5-b772-4b67-8328-55a415b1ded6",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Toxic Environment",
